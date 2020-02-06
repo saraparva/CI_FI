@@ -6,13 +6,7 @@ int main(){
     cin>>num;
     while (num!=0){
         cifra=num%10;
-        if (cifra !=0){
-            cifra/=cifra;
-        }
-        else {
-            cifra=1;
-        }
-        suma+=cifra;
+        suma+=1;
         num/=10;
     }
     cout<<"El numero de cifras es: "<<suma<<endl;
