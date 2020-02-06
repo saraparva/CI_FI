@@ -9,6 +9,9 @@ int main(){
         if (cifra !=0){
             cifra/=cifra;
         }
+        else {
+            cifra=1;
+        }
         suma+=cifra;
         num/=10;
     }
