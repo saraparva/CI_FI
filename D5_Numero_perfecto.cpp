@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int num,div=1,suma=0;
+    int num,div,suma;
     cout<<"Escribe un numero: ";
     cin>>num;
     while (num!=0){
+        div=1;
+        suma=0;
         while (num!=div){
             if ((num%div)==0){
                 suma+=div;
