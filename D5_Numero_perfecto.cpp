@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int num,div,suma;
+    int num,div,suma,N;
     cout<<"Escribe un numero: ";
     cin>>num;
     while (num!=0){
         div=1;
         suma=0;
-        while (num!=div){
+        N=num/2;
+        while (div<=N){
             if ((num%div)==0){
                 suma+=div;
                 div++;
